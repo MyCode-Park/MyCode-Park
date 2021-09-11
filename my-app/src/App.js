@@ -1,14 +1,10 @@
 import './App.css';
+import Home from "./Home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>
-         Velaanmaiam
-       </h1>
-       <p>push and pull check</p>
-      </header>
+    <Home />
     </div>
   );
 }

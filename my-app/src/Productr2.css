@@ -1,0 +1,63 @@
+.productr2
+{
+
+   
+    display: flex;
+    column-gap: 10px;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-end;
+    margin:-5px;
+    padding:20px;
+    width:100%;
+    max-height:400px ;
+    min-width: 100px;
+    z-index: 1;
+
+}
+.productr2__name
+{
+    margin-top: -18px;   
+    text-align: center;
+    font-style: normal;
+    font-weight: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.productr2__img{
+    
+    padding-top: 50%;
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    }
+.productr2__button
+{
+    margin-top: 35px;
+    background-color:black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+.productr2__price
+{
+    margin-top:-25px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.productr2__rating
+{
+    display: flex;
+    margin-top: -25px;
+}
+
+
