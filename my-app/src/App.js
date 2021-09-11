@@ -7,6 +7,7 @@ function App() {
        <h1>
          Velaanmaiam
        </h1>
+       <p>push and pull check</p>
       </header>
     </div>
   );
