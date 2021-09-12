@@ -1,12 +1,13 @@
 import React from 'react';
 import "./Productr2.css";
-function Productr2({image,title,price,rating})
+function Productr2({image,title,price,rating,id})
  {
      return(
          <div className="productr2">
              <img className="productr2__img"
              src={image}
-             alt="" />
+             alt=""/>
+            
              <div className="productr2__name">
                 <p>{title}
                     </p>

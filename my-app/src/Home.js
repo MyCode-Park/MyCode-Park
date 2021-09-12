@@ -11,7 +11,7 @@ function Home()
         <div className="home">
          <div className="home__container">
          <div className="home__row">
-             <Productr1
+             <Productr1 
              image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
              info="Clean.Fresh.Healthy"
              title="Green Chilli"
@@ -24,21 +24,27 @@ function Home()
           </div>
          <div className="home__row">
              <Productr2
+             id={1}
              image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
              title="Green Chilli"
              price={5.99}
              rating={4}/>
          <Productr2
+            id={2}
              image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
              title="Green Chilli"
              price={5.99}
-             rating={3}/>
+             rating={3}
+            />
+
          <Productr2
+             id={3}
              image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
              title="Green Chilli"
              price={5.99}
              rating={2}/>
          <Productr2
+            id={4}
              image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
              title="Green Chilli"
              price={5.99}
@@ -78,6 +84,7 @@ function Home()
                rating={3}
                />
           </div>
+
           <div className="home__row">
               <Productr2
               image="https://bsmedia.business-standard.com/_media/bs/img/article/2020-03/29/full/1585492083-5639.jpg"

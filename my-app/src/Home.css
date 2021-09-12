@@ -2,31 +2,41 @@
     display: flex;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
 
 }
 .home__row
 {
     display:flex;
     z-index:1;
-    margin-top: 90px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .home__container{
     display:flex;
     flex-direction: column;
     row-gap: 1px;
+
+margin-bottom: 50px;
+    flex: 1;
+    justify-content:center;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 .home__video{
-    position: cover;
-    margin-top: 50px;
-    height: 100%;
+    position: fill;
+    margin-top: -30px;
+    margin-bottom: 70px;
+    height:100%;
     min-height: 200px;
     width: 100%;
+    
 
 }
+
+
     
 
     

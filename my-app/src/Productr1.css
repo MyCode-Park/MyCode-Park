@@ -3,7 +3,7 @@
     column-gap: 10px;
     flex-direction: column;
     align-items:center;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin:10px;
     padding:20px;
     width:200%;
@@ -30,11 +30,13 @@
     font-family: 'Times New Roman', Times, serif; 
 }
 .productr1__img{
-    width: 200%;
+    width: 100%;
     object-fit:contain;
-    max-height:310px ;
-    min-width: 50px;
+    max-height:400px ;
+    min-width: 100px;
     margin-bottom: 15px;
+    flex-direction: column;
+    column-gap: 50px;
 }
 .productr1__button
 {
@@ -47,9 +49,15 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
+    
+}
+.productr1__button:hover{
+     cursor: pointer;
+    transform: scale(1.5);
+    transition: width 3s height 3s;
   
 }
+
 
     
 

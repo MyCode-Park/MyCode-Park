@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items:center;
     text-align: center;
-    justify-content:space-between;
+    justify-content:flex-end;
     margin-top:-100px;
     padding:20px;
     width:100%;
@@ -28,10 +28,12 @@
 }
 
 .productr2__img{
-    padding-top: 50%;
+    margin-top: 210px;
+    padding-top: 30%;
     max-height: 200px;
     width: 100%;
     object-fit: contain;
+
     margin-bottom: 15px;
     }
 .productr2__button
@@ -46,8 +48,12 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
   
+}
+.productr2__button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: width 3s height 3s;
 }
 .productr2__price
 {
@@ -62,6 +68,13 @@
     display: flex;
     text-align:center;
 }
+.productr2__rating:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: width 3s height 3s;
+}
+
+
 
 
 
