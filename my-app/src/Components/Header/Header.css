@@ -1,0 +1,72 @@
+/* Header section ----------------------- */
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* logo section ----------------------- */
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 0px;
+}
+
+/* Header Search ----------------------- */
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+/* Header search box -------------------- */
+.header__searchInput {
+  width: 50%;
+  height: 26px !important;
+  /* border: none; */
+  border-color: black;
+  /* border-bottom: 10px ; */
+  border-top: 10px;
+  border-right: 10px;
+  border-left: 10cm;
+}
+
+/* Header Icons ------------------------- */
+.header__searchIcon {
+  padding: 5px;
+  height: 22px;
+  color: black;
+  /* background-color: coral; */
+}
+
+/* Header nav ---------------------------- */
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Header option ------------------------- */
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Header option line one */
+.header__optionLineOne {
+  font-size: 12px;
+}
+
+/* Header option line two */
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
