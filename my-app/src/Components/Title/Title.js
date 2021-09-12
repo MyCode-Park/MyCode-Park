@@ -12,7 +12,14 @@ function Title() {
           pressed juices is our thing.
         </span>
         <div className="">
-          <Button>Shop Now</Button>
+          <Button
+            onClick={() => console.log("Clicked Me")}
+            type="button"
+            buttonStyle="btn--white--outline"
+            buttonSize="btn--small"
+          >
+            Shop Now
+          </Button>
         </div>
       </div>
     </div>
