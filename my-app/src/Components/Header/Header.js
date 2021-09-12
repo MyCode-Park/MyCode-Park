@@ -9,6 +9,11 @@ function Header() {
   return (
     <div className="header">
       <img className="header__logo" src="/pics/logo-Bg.png" alt="LOGO" />
+      <div className="header__nav">
+        <div className="header__option">Shop</div>
+        <div className="header__option">About Us</div>
+        <div className="header__option">Contact Us</div>
+      </div>
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <BiSearchAlt className="header__searchIcon" size={35} />
@@ -27,7 +32,7 @@ function Header() {
           <span className="header__optionLineTwo">Account</span>
         </div>
         <div className="header__optionCartIcon">
-          <FiShoppingCart size={35}/>
+          <FiShoppingCart size={35} />
           <span className="header__optionLineTwo header__basketCount">10</span>
         </div>
       </div>

@@ -1,0 +1,22 @@
+.title {
+  display: flex;
+  color: aliceblue;
+}
+
+.title__Option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title__headLine {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.title__subLine {
+  line-height: 20px;
+  letter-spacing: 1px;
+}
