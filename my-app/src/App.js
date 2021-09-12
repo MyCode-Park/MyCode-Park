@@ -1,9 +1,11 @@
 import './App.css';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div>
-      <h1>Velannmaiam</h1>
+ <Header/>
+ {/* Home */}
     </div>
   );
 }

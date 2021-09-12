@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
 }
 
 /* logo section ----------------------- */
@@ -31,6 +32,7 @@
   width: 50%;
   height: 26px !important;
   /* border: none; */
+  background-color: whitesmoke;
   border-color: black;
   /* border-bottom: 10px ; */
   border-top: 10px;
@@ -60,13 +62,30 @@
   margin-right: 10px;
 }
 
-/* Header option line one */
+/* Header option line one -------------------*/
 .header__optionLineOne {
   font-size: 12px;
 }
 
-/* Header option line two */
+/* Header option line two --------------------*/
 .header__optionLineTwo {
   font-size: 13px;
   font-weight: 800;
+}
+
+/* Header cart icon */
+.header__optionCartIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Bakset count ------------------------------ */
+.header__basketCount {
+  margin-left: 0px;
+  margin-right: 0px;
+  /* Custom styles */
+  position: relative;
+  right: 20px;
+  bottom: 18px;
 }
