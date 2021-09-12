@@ -1,13 +1,16 @@
 .title {
   display: flex;
   color: aliceblue;
+  text-align: left;
 }
 
 .title__Option {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: 75px;
+  margin-top: 20rem;
+  text-align: end; /* this aligns the buttons to end*/
 }
 
 .title__headLine {
@@ -19,4 +22,8 @@
 .title__subLine {
   line-height: 20px;
   letter-spacing: 1px;
+}
+
+.title__btn {
+  padding: 20px 0px;
 }

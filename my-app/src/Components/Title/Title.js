@@ -11,7 +11,7 @@ function Title() {
           Where we do things differently. 100% organic smoothies and cold
           pressed juices is our thing.
         </span>
-        <div className="">
+        <div className="title__btn">
           <Button
             onClick={() => console.log("Clicked Me")}
             type="button"
