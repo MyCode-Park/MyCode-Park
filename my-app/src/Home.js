@@ -2,6 +2,7 @@ import React from 'react';
 import "./Home.css";
 import Productr1 from "./Productr1";
 import Productr2 from "./Productr2";
+import vid1 from  "./video/vid1.mp4"
 
 
 function Home()
@@ -44,6 +45,68 @@ function Home()
              rating={3}/>
          
           
+          </div>
+          <div className="home__row">
+              <video autoPlay loop muted className='home__video'>
+              <source src={vid1} type="video/mp4" />
+              </video>
+          </div>
+
+          <div className="home__row">
+              <Productr2
+              image="https://m.economictimes.com/thumb/msid-70508995,width-1200,height-900,resizemode-4,imgsize-452373/agri-startup-getty.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+                             <Productr2
+              image="https://m.economictimes.com/thumb/msid-70508995,width-1200,height-900,resizemode-4,imgsize-452373/agri-startup-getty.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+                             <Productr2
+              image="https://m.economictimes.com/thumb/msid-70508995,width-1200,height-900,resizemode-4,imgsize-452373/agri-startup-getty.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+                             <Productr2
+              image="https://m.economictimes.com/thumb/msid-70508995,width-1200,height-900,resizemode-4,imgsize-452373/agri-startup-getty.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+          </div>
+          <div className="home__row">
+              <Productr2
+              image="https://bsmedia.business-standard.com/_media/bs/img/article/2020-03/29/full/1585492083-5639.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+               <Productr2
+              image="https://bsmedia.business-standard.com/_media/bs/img/article/2020-03/29/full/1585492083-5639.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+              <Productr2
+              image="https://bsmedia.business-standard.com/_media/bs/img/article/2020-03/29/full/1585492083-5639.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+              <Productr2
+              image="https://bsmedia.business-standard.com/_media/bs/img/article/2020-03/29/full/1585492083-5639.jpg"
+               title="apple"
+               price={10.11}
+               rating={3}
+               />
+              
+               
+               
+        
           </div>
           
 
