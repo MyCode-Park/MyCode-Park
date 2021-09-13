@@ -1,12 +1,15 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { useStateValue } from "../Data_Handler/StateProvider";
 
 // Icons Import
 import { BiSearchAlt } from "react-icons/bi";
 import { FiShoppingCart } from "react-icons/fi";
 
 function Header() {
+  const [{ cart }, dispatch] = useStateValue();
+
   return (
     <div className="header">
       <Link to="/">
@@ -38,7 +41,7 @@ function Header() {
           <div className="header__optionCartIcon">
             <FiShoppingCart size={35} />
             <span className="header__optionLineTwo header__basketCount">
-              10
+              {cart?.length}
             </span>
           </div>
         </Link>
