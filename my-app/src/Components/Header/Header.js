@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 // Icons Import
 import { BiSearchAlt } from "react-icons/bi";
@@ -8,7 +9,9 @@ import { FiShoppingCart } from "react-icons/fi";
 function Header() {
   return (
     <div className="header">
-      <img className="header__logo" src="/pics/logo-Bg.png" alt="LOGO" />
+      <Link to="/">
+        <img className="header__logo" src="/pics/logo-Bg.png" alt="LOGO" />
+      </Link>
       <div className="header__nav">
         <div className="header__option">Shop</div>
         <div className="header__option">About Us</div>
@@ -31,10 +34,14 @@ function Header() {
           <span className="header__optionLineOne">Your</span>
           <span className="header__optionLineTwo">Account</span>
         </div>
-        <div className="header__optionCartIcon">
-          <FiShoppingCart size={35} />
-          <span className="header__optionLineTwo header__basketCount">10</span>
-        </div>
+        <Link to="/checkout">
+          <div className="header__optionCartIcon">
+            <FiShoppingCart size={35} />
+            <span className="header__optionLineTwo header__basketCount">
+              10
+            </span>
+          </div>
+        </Link>
       </div>
     </div>
   );

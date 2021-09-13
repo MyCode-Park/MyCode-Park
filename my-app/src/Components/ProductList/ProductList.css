@@ -3,6 +3,8 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  top: 14rem;
 }
 .productList__row {
   display: flex;

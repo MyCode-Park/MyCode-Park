@@ -27,3 +27,9 @@
 .title__btn {
   padding: 20px 0px;
 }
+
+.title__btn {
+  color: white !important;
+  color: white;
+  border-color: aliceblue;
+}

@@ -16,7 +16,7 @@ function Title() {
             onClick={() => console.log("Clicked Me")}
             type="button"
             buttonStyle="btn--white--outline"
-            buttonSize="btn--small"
+            buttonSize="btn--medium"
           >
             Shop Now
           </Button>
