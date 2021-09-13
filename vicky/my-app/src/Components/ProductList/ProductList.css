@@ -1,0 +1,35 @@
+.productList {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.productList__row {
+  display: flex;
+  z-index: 1;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* top: 450px; */
+}
+.productList__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+  margin-bottom: 50px;
+  flex: 1;
+  justify-content: center;
+  margin-left: 1px;
+  margin-right: 1px;
+  position: relative;
+  top: 5rem;
+}
+.productList__video {
+  position: fill;
+  margin-top: -30px;
+  margin-bottom: 70px;
+  height: 100%;
+  min-height: 200px;
+  width: 100%;
+}

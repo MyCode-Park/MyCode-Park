@@ -1,0 +1,65 @@
+.heroSection4 {
+  display: flex;
+  column-gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  margin-top: -100px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  z-index: 1;
+}
+.heroSection4__name {
+  margin-top: 0px;
+  text-align: center;
+  font-style: normal;
+  font-weight: none;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heroSection4__img {
+  margin-top: 210px;
+  padding-top: 30%;
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+
+  margin-bottom: 15px;
+}
+.heroSection4__button {
+  margin-top: 35px;
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.heroSection4__button:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: width 3s height 3s;
+}
+.heroSection4__price {
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.heroSection4__rating {
+  margin-top: 0px;
+  display: flex;
+  text-align: center;
+}
+.heroSection4__rating:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: width 3s height 3s;
+}

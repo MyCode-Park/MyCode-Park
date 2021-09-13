@@ -7,8 +7,7 @@ function Productr2({image,title,price,rating,id})
              <img className="productr2__img"
              src={image}
              alt=""/>
-            
-             <div className="productr2__name">
+        <div className="productr2__name">
                 <p>{title}
                     </p>
              </div>
@@ -22,8 +21,8 @@ function Productr2({image,title,price,rating,id})
                 .map((_,i) => (
                 <p>⭐</p>
                 ))}
-            <p> {rating} reviews</p>
-	
+            <p> {rating} reviews</p> 
+            
              </div>
              
                           <button className="productr2__button">View Options</button>
