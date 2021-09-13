@@ -1,0 +1,51 @@
+.blogText{
+    text-align: right;
+  position: relative;
+  bottom: 15rem;
+  margin: 0 2rem;
+  color:white;
+  font-size: 1.5em;
+  padding: 10x;
+  
+  }
+  .button{
+    margin: 15px;
+  }
+  .button:hover{
+    cursor: pointer;
+    transform: scale(1);
+    transition: width 1s height 1s;
+
+  }
+  .title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 50000px;
+    font-size: 30px;
+    background-color: #a6a6a6;
+  }
+  .position-relative{
+    margin-bottom: -100px;
+  }
+  
+  @media screen and (max-width: 560px) {
+    .blogText{
+      position: inherit;
+      bottom: inherit;
+      margin: .25rem;
+      font-size: inherit;
+      color:black;
+      text-align: left;
+      border-radius: 5px;
+    }
+    
+    .position-relative{
+        display: flex;
+        flex-direction: column;
+      max-width: 500%;
+      height: auto;
+      padding: 5px;
+      opacity: 1;
+    }
+  }

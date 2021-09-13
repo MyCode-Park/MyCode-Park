@@ -25,7 +25,7 @@ function Productr2({image,title,price,rating,id})
             
              </div>
              
-                          <button className="productr2__button">View Options</button>
+                          <button className="productr2__button">Add to Cart</button>
              
          </div>
 
