@@ -5,6 +5,8 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Checkout from "./Components/Checkout/Checkout";
+import Login from "./Components/Login/Login";
+import BuyerForm from "./Components/UserSelection/BuyerForm";
 // import ProductList from "./Components/ProductList/ProductList";
 // import DiscoverMore from "./Components/DiscoverMore/DiscoverMore";
 
@@ -14,10 +16,15 @@ function App() {
     <Router>
       <div>
         <Switch>
-          {/* <Header /> */}
+          <Route path="/login">
+            <Login />
+          </Route>
           <Route path="/checkout">
             <Header />
             <Checkout />
+          </Route>
+          <Route path="/buyerForm">
+            <BuyerForm />
           </Route>
           {/* the / "forward" router should always be the bottom to avoid errors */}
           <Route path="/">
