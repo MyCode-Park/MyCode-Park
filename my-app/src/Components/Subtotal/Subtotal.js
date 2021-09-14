@@ -5,8 +5,10 @@ import { BiBasket } from "react-icons/bi";
 import { Button } from "../Button/Button";
 import { useStateValue } from "../Data_Handler/StateProvider";
 import { getCartTotal } from "../Data_Handler/reducer";
+import { useHistory } from "react-router-dom";
 
 function Subtotal() {
+  const history = useHistory();
   const [{ cart }, dispatch] = useStateValue();
 
   return (
@@ -26,7 +28,9 @@ function Subtotal() {
         prefix={"$"}
       />
 
-      <button>Proceed to Checkout</button>
+      <button onClick={(e) => history.push("/payment")}>
+        Proceed to Checkout
+      </button>
     </div>
   );
 }

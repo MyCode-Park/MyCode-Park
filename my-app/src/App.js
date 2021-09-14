@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { auth } from "./firebase";
 import { useStateValue } from "./Components/Data_Handler/StateProvider";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
 import "./App.css";
 // components
@@ -11,6 +13,11 @@ import Checkout from "./Components/Checkout/Checkout";
 import Login from "./Components/Login/Login";
 import BuyerForm from "./Components/UserSelection/BuyerForm";
 import NewUser from "./Components/UserSelection/NewUser";
+import Payment from "./Components/Payment/Payment";
+
+const promise = loadStripe(
+  "pk_test_51JZWkYSJDgFE9F4p11CTEevAgJCmKbpliP3rMbGuXjlYki2pWOzQSmMA1Oa48YHebKY9g00wbidzfHybXcm971J8003ipolZCj"
+);
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -46,6 +53,12 @@ function App() {
           <Route path="/checkout">
             <Header />
             <Checkout />
+          </Route>
+          <Route path="/payment">
+            <Header />
+            <Elements stripe={promise}>
+              <Payment />
+            </Elements>
           </Route>
           <Route path="/buyerForm">
             <BuyerForm />
