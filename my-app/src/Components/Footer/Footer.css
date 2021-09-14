@@ -1,0 +1,54 @@
+.main-footer {
+  background-color: rgb(238, 238, 238);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.row1 {
+  margin-bottom: 6rem;
+}
+
+.footer1 {
+  color: #636363;
+  display: block;
+}
+
+.no-border {
+  border: 0;
+}
+
+.text-align {
+  text-align: left;
+}
+
+.inr {
+  text-align: right;
+  color: #636363;
+}
+
+.botton_color {
+  background-color: rgb(22, 112, 116);
+}
+
+.link1 {
+  text-decoration: none;
+  color: #636363;
+}
+
+.text1 {
+  font-size: 3.5mm;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  cursor: pointer;
+}
+.coll {
+  display: flex;
+}

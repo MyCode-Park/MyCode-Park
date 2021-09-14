@@ -6,10 +6,13 @@ function Title() {
   return (
     <div className="title">
       <div className="title__Option">
-        <span className="title__headLine">100% Organic Goodness</span>
+        <span className="title__headLine">
+          Please ignore the design and responsive
+          <br />
+          Our page is still under Construction and will be fixed soon
+        </span>
         <span className="title__subLine">
-          Where we do things differently. 100% organic smoothies and cold
-          pressed juices is our thing.
+          This is just a sample purpose of hosting the application in the cloud
         </span>
         <div className="title__btn">
           <Button
