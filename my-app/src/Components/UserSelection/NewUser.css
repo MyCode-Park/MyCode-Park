@@ -1,11 +1,11 @@
-.buyerForm {
+.NewUser {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.buyerForm__logo {
+.NewUser__logo {
   margin-top: 20px;
   margin-bottom: 20px;
   object-fit: contain;
@@ -14,7 +14,7 @@
   margin-left: auto;
 }
 
-.buyerForm__container {
+.NewUser__container {
   width: 300px;
   height: fit-content;
   display: flex;
@@ -24,26 +24,26 @@
   padding: 20px;
 }
 
-.buyerForm__container > h1 {
+.NewUser__container > h1 {
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.buyerForm__container > form > h5 {
+.NewUser__container > form > h5 {
   margin-bottom: 15px;
 }
 
-.buyerForm__container > form > p {
+.NewUser__container > form > p {
   margin-bottom: 15px;
   font-size: 12px;
 }
 
-.buyerForm__container > form > input {
+.NewUser__container > form > input {
   width: 100%;
   margin-bottom: 15px;
 }
 
-.buyerForm__signInBtn {
+.NewUser__signInBtn {
   display: flex;
   background: lightgray;
   border-radius: 2px;
@@ -56,7 +56,7 @@
   margin-bottom: 5px;
 }
 
-.buyerForm__regBtn {
+.NewUser__regBtn {
   display: flex;
   border-radius: 2px;
   justify-content: center;

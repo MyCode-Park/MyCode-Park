@@ -4,7 +4,7 @@ import { useStateValue } from "../Data_Handler/StateProvider";
 
 function HeroSection4({ id, image, title, price, rating }) {
   const [{ cart }, dispatch] = useStateValue();
-  console.log("cart is loaded >>> ", cart);
+  // console.log("cart is loaded >>> ", cart);
   const addToCart = () => {
     // dispatch the item into the data layer
     dispatch({
