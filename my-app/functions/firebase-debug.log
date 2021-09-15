@@ -1,43 +1,39 @@
-[debug] [2021-09-15T17:37:35.031Z] ----------------------------------------------------------------------
-[debug] [2021-09-15T17:37:35.035Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vignesh.muralimohan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2021-09-15T17:37:35.036Z] CLI Version:   9.18.0
-[debug] [2021-09-15T17:37:35.036Z] Platform:      win32
-[debug] [2021-09-15T17:37:35.037Z] Node Version:  v14.17.6
-[debug] [2021-09-15T17:37:35.039Z] Time:          Wed Sep 15 2021 23:07:35 GMT+0530 (India Standard Time)
-[debug] [2021-09-15T17:37:35.040Z] ----------------------------------------------------------------------
+[debug] [2021-09-15T19:40:12.998Z] ----------------------------------------------------------------------
+[debug] [2021-09-15T19:40:13.001Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vignesh.muralimohan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-09-15T19:40:13.001Z] CLI Version:   9.18.0
+[debug] [2021-09-15T19:40:13.001Z] Platform:      win32
+[debug] [2021-09-15T19:40:13.001Z] Node Version:  v14.17.6
+[debug] [2021-09-15T19:40:13.003Z] Time:          Thu Sep 16 2021 01:10:13 GMT+0530 (India Standard Time)
+[debug] [2021-09-15T19:40:13.004Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-09-15T17:37:35.140Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-09-15T17:37:35.140Z] > authorizing via signed-in user (vignesh.muralimohan21pf@gmail.com)
+[debug] [2021-09-15T19:40:13.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-15T19:40:13.112Z] > authorizing via signed-in user (vignesh.muralimohan21pf@gmail.com)
 [info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
-[debug] [2021-09-15T17:37:35.164Z] [hub] writing locator at C:\Users\VIGNES~1.MUR\AppData\Local\Temp\hub-velaanmaiam.json
+[debug] [2021-09-15T19:40:13.150Z] [hub] writing locator at C:\Users\VIGNES~1.MUR\AppData\Local\Temp\hub-velaanmaiam.json
 [warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
 [info] +  functions: Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@14 from host."}}
-[debug] [2021-09-15T17:37:35.198Z] defaultcredentials: writing to file C:\Users\vignesh.muralimohan\AppData\Roaming\firebase\vignesh_muralimohan21pf_gmail.com_application_default_credentials.json
-[debug] [2021-09-15T17:37:35.202Z] Setting GAC to C:\Users\vignesh.muralimohan\AppData\Roaming\firebase\vignesh_muralimohan21pf_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\vignesh.muralimohan\\AppData\\Roaming\\firebase\\vignesh_muralimohan21pf_gmail.com_application_default_credentials.json"}}
-[debug] [2021-09-15T17:37:35.205Z] > refreshing access token with scopes: []
-[debug] [2021-09-15T17:37:35.205Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2021-09-15T17:37:35.514Z] <<< HTTP RESPONSE 200 {"date":"Wed, 15 Sep 2021 17:37:36 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-09-15T17:37:35.723Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/adminSdkConfig [none]
-[debug] [2021-09-15T17:37:36.344Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/adminSdkConfig 200
-[debug] [2021-09-15T17:37:36.345Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/adminSdkConfig {"projectId":"velaanmaiam","storageBucket":"velaanmaiam.appspot.com","locationId":"us-central"}
-[debug] [2021-09-15T17:37:36.435Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/velaanmaiam/sites 
-[debug] [2021-09-15T17:37:38.285Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/velaanmaiam/sites 200
-[debug] [2021-09-15T17:37:38.286Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/velaanmaiam/sites {"sites":[{"name":"projects/909362125520/sites/velaanmaiam","defaultUrl":"https://velaanmaiam.web.app","appId":"1:909362125520:web:4fd208346a8fc46db41cd5","type":"DEFAULT_SITE"}]}
-[debug] [2021-09-15T17:37:38.286Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/webApps/1:909362125520:web:4fd208346a8fc46db41cd5/config [none]
-[debug] [2021-09-15T17:37:39.820Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/webApps/1:909362125520:web:4fd208346a8fc46db41cd5/config 200
-[debug] [2021-09-15T17:37:39.821Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/webApps/1:909362125520:web:4fd208346a8fc46db41cd5/config {"projectId":"velaanmaiam","appId":"1:909362125520:web:4fd208346a8fc46db41cd5","storageBucket":"velaanmaiam.appspot.com","locationId":"us-central","apiKey":"AIzaSyCw3YFJvfdlHY3R91wazxWDN12KEdp2GGE","authDomain":"velaanmaiam.firebaseapp.com","messagingSenderId":"909362125520","measurementId":"G-00NHH15ERY"}
+[debug] [2021-09-15T19:40:13.193Z] defaultcredentials: writing to file C:\Users\vignesh.muralimohan\AppData\Roaming\firebase\vignesh_muralimohan21pf_gmail.com_application_default_credentials.json
+[debug] [2021-09-15T19:40:13.197Z] Setting GAC to C:\Users\vignesh.muralimohan\AppData\Roaming\firebase\vignesh_muralimohan21pf_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\vignesh.muralimohan\\AppData\\Roaming\\firebase\\vignesh_muralimohan21pf_gmail.com_application_default_credentials.json"}}
+[debug] [2021-09-15T19:40:13.200Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/adminSdkConfig [none]
+[debug] [2021-09-15T19:40:13.822Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/adminSdkConfig 200
+[debug] [2021-09-15T19:40:13.822Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/adminSdkConfig {"projectId":"velaanmaiam","storageBucket":"velaanmaiam.appspot.com","locationId":"us-central"}
+[debug] [2021-09-15T19:40:13.898Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/velaanmaiam/sites 
+[debug] [2021-09-15T19:40:15.476Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/velaanmaiam/sites 200
+[debug] [2021-09-15T19:40:15.476Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/velaanmaiam/sites {"sites":[{"name":"projects/909362125520/sites/velaanmaiam","defaultUrl":"https://velaanmaiam.web.app","appId":"1:909362125520:web:4fd208346a8fc46db41cd5","type":"DEFAULT_SITE"}]}
+[debug] [2021-09-15T19:40:15.477Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/webApps/1:909362125520:web:4fd208346a8fc46db41cd5/config [none]
+[debug] [2021-09-15T19:40:16.918Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/webApps/1:909362125520:web:4fd208346a8fc46db41cd5/config 200
+[debug] [2021-09-15T19:40:16.919Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/velaanmaiam/webApps/1:909362125520:web:4fd208346a8fc46db41cd5/config {"projectId":"velaanmaiam","appId":"1:909362125520:web:4fd208346a8fc46db41cd5","storageBucket":"velaanmaiam.appspot.com","locationId":"us-central","apiKey":"AIzaSyCw3YFJvfdlHY3R91wazxWDN12KEdp2GGE","authDomain":"velaanmaiam.firebaseapp.com","messagingSenderId":"909362125520","measurementId":"G-00NHH15ERY"}
 [info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
 [info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
-[debug] [2021-09-15T17:37:39.953Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2021-09-15T17:37:39.954Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2021-09-15T17:37:39.954Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\vignesh.muralimohan\\.cache\\firebase\\emulators\\ui-v1.6.3\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\vignesh.muralimohan\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.3\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2021-09-15T19:40:17.000Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-09-15T19:40:17.001Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-09-15T19:40:17.001Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\vignesh.muralimohan\\.cache\\firebase\\emulators\\ui-v1.6.3\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\vignesh.muralimohan\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.3\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2021-09-15T17:37:40.176Z] Web / API server started at localhost:4000
+[debug] [2021-09-15T19:40:17.214Z] Web / API server started at localhost:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
 [info] i  functions: Watching "D:\React\my-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\React\\my-app\\functions\" for Cloud Functions..."}}
-[debug] [2021-09-15T17:37:40.293Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
-[debug] [2021-09-15T17:37:40.294Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
-[debug] [2021-09-15T17:37:40.294Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
-[debug] [2021-09-15T17:37:40.296Z] [worker-~diagnostic~-eb2ce191-d0fd-4ecc-8f2d-3528014b5e91]: Assigning socketPath: \\?\pipe\D:\React\my-app\functions\26784 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-eb2ce191-d0fd-4ecc-8f2d-3528014b5e91]: Assigning socketPath: \\\\?\\pipe\\D:\\React\\my-app\\functions\\26784"}}
-[debug] [2021-09-15T17:37:40.297Z] [worker-~diagnostic~-eb2ce191-d0fd-4ecc-8f2d-3528014b5e91]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-eb2ce191-d0fd-4ecc-8f2d-3528014b5e91]: BUSY"}}
+[debug] [2021-09-15T19:40:17.311Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2021-09-15T19:40:17.311Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2021-09-15T19:40:17.312Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2021-09-15T19:40:17.313Z] [worker-~diagnostic~-888c9c0d-7826-4de2-b6a2-16e98dd6477c]: Assigning socketPath: \\?\pipe\D:\React\my-app\functions\19332 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-888c9c0d-7826-4de2-b6a2-16e98dd6477c]: Assigning socketPath: \\\\?\\pipe\\D:\\React\\my-app\\functions\\19332"}}
+[debug] [2021-09-15T19:40:17.314Z] [worker-~diagnostic~-888c9c0d-7826-4de2-b6a2-16e98dd6477c]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-888c9c0d-7826-4de2-b6a2-16e98dd6477c]: BUSY"}}
