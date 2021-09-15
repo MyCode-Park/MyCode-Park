@@ -13,20 +13,13 @@ const app = express();
 
 // Middleware
 app.use(cors({ origin: true }));
-app.use(express.jason());
+app.use(express.json());
 
 // API routes
 app.get("/", (request, response) => response.status(200).send("hello world"));
-app.post("/payments/create", async (request, response) => {
-  const total = request.query.total;
-
-  console.log("payment request received", total);
-
-  const paymentIntent = await stripe.paymentIntents.create({
-    amount: total,
-    currency: "usd",
-  });
-});
 
 // Listen command
 exports.api = functions.https.onRequest(app);
+
+// example endpoint
+// http://localhost:5001/velaanmaiam/us-central1/api

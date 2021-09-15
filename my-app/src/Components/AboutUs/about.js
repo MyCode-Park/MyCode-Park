@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+// import "./about.css";
 // import dealer from "../images/dealer.jpg";
 // import Farming from "../images/farming.jpg";
 // import vdo from "../images/vf.mp4";
