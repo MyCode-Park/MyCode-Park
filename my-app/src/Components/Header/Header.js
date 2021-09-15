@@ -23,9 +23,13 @@ function Header() {
         <img className="header__logo" src="/pics/logo-Bg.png" alt="LOGO" />
       </Link>
       <div className="header__nav">
-        <div className="header__option">Shop</div>
+        <Link to="/shop">
+          <div className="header__option">Shop</div>
+        </Link>
         <div className="header__option">About Us</div>
-        <div className="header__option">Contact Us</div>
+        <Link to="/contact">
+          <div className="header__option">Contact Us</div>
+        </Link>
       </div>
       <div className="header__search">
         <input className="header__searchInput" type="text" />

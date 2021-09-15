@@ -9,9 +9,9 @@ function DiscoverMore() {
   return (
     <div>
       <container>
-        <img src={Img} alt="agri" className="discoverMore__img" />
+        {/* <img src={Img} alt="agri" className="discoverMore__img" /> */}
         <Figure className="discoverMore">
-          <FigureCaption className="discoverMore__blogText">
+          {/* <FigureCaption className="discoverMore__blogText">
             <span className="discoverMore__headLine">Who we are </span>
             <br />
             <span className="discoverMore__subLine">
@@ -21,7 +21,7 @@ function DiscoverMore() {
             <div className="discoverMore__button">
               <Button onClick="knowmore">Know more</Button>
             </div>
-          </FigureCaption>
+          </FigureCaption> */}
         </Figure>
       </container>
     </div>

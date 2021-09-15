@@ -1,0 +1,16 @@
+.App{
+  margin: 0;
+}
+.wordings{
+  background: #fff;
+  left:21%;
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.img-block{
+  height: 500px;
+}

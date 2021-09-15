@@ -6,7 +6,6 @@ import card_icon from "../Icons/card_icons.png";
 import { FaTwitter } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { GrFacebook } from "react-icons/gr";
-
 const Footer = () => {
   return (
     <div className="main-footer footer1">
@@ -70,26 +69,27 @@ const Footer = () => {
         </div>
         <div className="row">
           <div className="coll">
-            <div className="icon">
+            <div className="iicon">
               <a href="https://twitter.com/i/topics/1087759183565340673">
                 <FaTwitter size={35} />
               </a>
             </div>
-            <div className="icon">
+
+            <div className="iicon">
               <a href="https://www.instagram.com/explore/tags/agriculture/?hl=en">
                 <GrInstagram size={35} />
               </a>
             </div>
-            <div className="icon">
-              <a href="https:/www.google.com">
+
+            <div className="iicon">
+              <a href="https://www.facebook.com/Wondersofagriculture/">
                 <GrFacebook size={35} />
               </a>
             </div>
-            <a href="https:/www.google.com"></a>
           </div>
-          <div className="col"></div>
+
           <div className="col inr">
-            <a href="https://www.facebook.com/Wondersofagriculture/">
+            <a href="https:/www.google.com">
               <img src={card_icon} height="50px" width="180px" />
             </a>
           </div>

@@ -43,12 +43,13 @@
   font-size: 3.5mm;
 }
 
-.icon {
+.coll {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.iicon {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  cursor: pointer;
-}
-.coll {
-  display: flex;
 }
