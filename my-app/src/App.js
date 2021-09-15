@@ -21,6 +21,7 @@ import Shop from "./Components/Shop/Shop";
 import AboutUs from "./Components/AboutUs/about";
 import SellerForm from "./Components/UserSelection/SellerForm";
 import SignInSeller from "./Components/UserSelection/SignInSeller";
+import Orders from "./Components/Payment/Orders";
 
 // Admin dash components
 // import Main from "./Components/AdminDash/main/Main";
@@ -78,6 +79,11 @@ function App() {
           <Route path="/checkout">
             <Header />
             <Checkout />
+            <Footer />
+          </Route>
+          <Route path="/orders">
+            <Header />
+            <Orders />
             <Footer />
           </Route>
           <Route path="/about">
