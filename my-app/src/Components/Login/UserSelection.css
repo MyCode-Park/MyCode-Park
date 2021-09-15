@@ -1,6 +1,7 @@
 .userSelection {
   display: flex;
-  padding: 20px;
+  padding: 30px;
   /* background-color: wheat; */
   height: max-content;
+  display: contents;
 }

@@ -5,7 +5,9 @@ function UserSelection() {
   return (
     <div className="userSelection">
       <div className="userSelection__seller">
-        <button>Seller Form</button>
+        <Link to="/signInSeller">
+          <h1>Seller Form</h1>
+        </Link>
       </div>
       <div className="userSelection__buyer">
         <Link to="/buyerForm">

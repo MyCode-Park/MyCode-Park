@@ -15,7 +15,7 @@ function NewUser() {
     e.preventDefault();
     // firebase is invoked
     auth
-      .createUserWithEmailAndPassword(email, password)
+      .createUserWithEmailAndPassword(name, email, password)
       .then((auth) => {
         // creates a new user with email & password
         console.log(auth);
@@ -31,7 +31,7 @@ function NewUser() {
         <img src={logo} className="NewUser__logo" />
       </Link>
       <div className="NewUser__container">
-        <h3>Create Your Account</h3>
+        <h3>Create Your Seller Account</h3>
         <form>
           <h5>Your Name</h5>
           <input

@@ -1,12 +1,11 @@
-.NewUser {
+.buyerForm {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
 }
 
-.NewUser__logo {
+.buyerForm__logo {
   margin-top: 20px;
   margin-bottom: 20px;
   object-fit: contain;
@@ -15,7 +14,7 @@
   margin-left: auto;
 }
 
-.NewUser__container {
+.buyerForm__container {
   width: 300px;
   height: fit-content;
   display: flex;
@@ -25,26 +24,26 @@
   padding: 20px;
 }
 
-.NewUser__container > h1 {
+.buyerForm__container > h1 {
   font-weight: 500;
   margin-bottom: 20px;
 }
 
-.NewUser__container > form > h5 {
+.buyerForm__container > form > h5 {
   margin-bottom: 15px;
 }
 
-.NewUser__container > form > p {
+.buyerForm__container > form > p {
   margin-bottom: 15px;
   font-size: 12px;
 }
 
-.NewUser__container > form > input {
+.buyerForm__container > form > input {
   width: 100%;
   margin-bottom: 15px;
 }
 
-.NewUser__signInBtn {
+.buyerForm__signInBtn {
   display: flex;
   background: lightgray;
   border-radius: 2px;
@@ -57,7 +56,7 @@
   margin-bottom: 5px;
 }
 
-.NewUser__regBtn {
+.buyerForm__regBtn {
   display: flex;
   border-radius: 2px;
   justify-content: center;
@@ -66,4 +65,15 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: lightgrey;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: 15px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }

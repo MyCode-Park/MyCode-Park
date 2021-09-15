@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import "./BuyerForm.css";
+// import "./SignInSeller.css";
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "../../firebase";
 import logo from "../Pics/logo.png";
 import validateInfo from "../Validation/Validaion";
 
-function BuyerForm() {
+function SignInSeller() {
   const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [text, setText] = useState("");
 
   const signIn = (e) => {
     e.preventDefault();
@@ -26,7 +27,7 @@ function BuyerForm() {
         <img src={logo} className="buyerForm__logo" />
       </Link>
       <div className="buyerForm__container">
-        <h1>Sign In</h1>
+        <h1>Sign In to your seller account</h1>
         <form>
           <h5>E-mail</h5>
           <input
@@ -42,6 +43,13 @@ function BuyerForm() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+          <h5>GST Number</h5>
+          <input
+            type="number"
+            placeholder=""
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+          />
           <button
             className="buyerForm__signInBtn"
             type="submit"
@@ -55,9 +63,9 @@ function BuyerForm() {
             Interest-Based Ads Notice.
           </p>
           <small>New to Vellanmaiam?</small>
-          <Link to="/NewUser">
+          <Link to="/sellerForm">
             <button className="buyerForm__regBtn">
-              Create your Vellanmiam account
+              Create your Vellanmiam Seller Account
             </button>
           </Link>
         </form>
@@ -66,4 +74,4 @@ function BuyerForm() {
   );
 }
 
-export default BuyerForm;
+export default SignInSeller;

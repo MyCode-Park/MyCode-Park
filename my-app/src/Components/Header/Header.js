@@ -26,7 +26,9 @@ function Header() {
         <Link to="/shop">
           <div className="header__option">Shop</div>
         </Link>
-        <div className="header__option">About Us</div>
+        <Link to="/about">
+          <div className="header__option">About Us</div>
+        </Link>
         <Link to="/contact">
           <div className="header__option">Contact Us</div>
         </Link>
