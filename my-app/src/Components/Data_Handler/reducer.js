@@ -5,10 +5,11 @@ export const initialState = {
 
 //Selector
 export const getCartTotal = (cart) =>
-  cart?.reduce((amount, item) => item.price + amount, 0);
+  cart?.reduce((amount, item) => parseInt(item.price) + parseInt(amount), 0);
+// cart?.reduce((amount, item) => item.price + amount, 0);
 
 const reducer = (state, action) => {
-  console.log(action);
+  console.log("action", action);
   switch (action.type) {
     case "ADD_TO_CART":
       return {

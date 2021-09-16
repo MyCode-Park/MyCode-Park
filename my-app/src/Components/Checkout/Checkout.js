@@ -15,7 +15,7 @@ function Checkout() {
         <img className="checkout__ad" src={Banner} alt="" />
         {/* <h3> Hello</h3> */}
         <div className="checkout__title">
-          <h2>Your shopping basket</h2>
+          <h2>Your shopping Cart</h2>
           {cart.map((item) => (
             <CheckoutProducts
               id={item.id}

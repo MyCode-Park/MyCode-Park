@@ -28,11 +28,11 @@ function Orders() {
 
   return (
     <div className="orders">
-      <h1>Your Order</h1>
+      <h1>orders page</h1>
       <div className="orders__order">
         {orders?.map((order) => (
           <Order order={order} />
-        ))}
+        ))}{" "}
       </div>
     </div>
   );
