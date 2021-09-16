@@ -8,7 +8,10 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__title">
         <div className="sidebar__img">
           <img src={logo} alt="logo" />
-          <h1>Velaanmaiam</h1>
+          <div className="sidebar__name">
+            <h3>Velaanmaiam</h3>
+            <h5>Seller Dashboard</h5>
+          </div>
         </div>
         <i
           onClick={() => closeSidebar()}

@@ -1,18 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { db } from "../../../firebase";
+import { useStateValue } from "../../Data_Handler/StateProvider";
+import Order from "../../Payment/Order";
 
-const buyde = (props) => {
+function BuyDe() {
+  const [{ cart, user }, dispatch] = useStateValue();
+  const [orders, setOrders] = useState([]);
+
+  useEffect(() => {
+    if (user) {
+      db.collection("users")
+        .doc(user?.uid)
+        .collection("orders")
+        .orderBy("created", "desc")
+        .onSnapshot((snapshot) =>
+          setOrders(
+            snapshot.docs.map((doc) => ({
+              id: doc.id,
+              data: doc.data(),
+            }))
+          )
+        );
+    } else {
+      setOrders([]);
+    }
+  }, [user]);
+
   return (
-    <div>
-      {/* <p> 
-                User Name : (props.name)
-            </p> */}
-      <h1> Vicky</h1>
-      <h1> Manoj</h1>
-      <h1> Manu</h1>
-      <h1> Shivanika</h1>
-      <h1> Kavi</h1>
+    <div className="orders">
+      <h1>Your Orders</h1>
+      <div className="orders__order">
+        {orders?.map((order) => (
+          <Order order={order} />
+        ))}{" "}
+      </div>
     </div>
   );
-};
+}
 
-export default buyde;
+export default BuyDe;

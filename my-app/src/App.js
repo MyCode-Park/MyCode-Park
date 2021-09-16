@@ -24,10 +24,8 @@ import SignInSeller from "./Components/UserSelection/SignInSeller";
 import Orders from "./Components/Payment/Orders";
 
 // Admin dash components
-// import Main from "./Components/AdminDash/main/Main";
-// import Navbar from "./Components/AdminDash/navbar/Navbar";
-// import Sidebar from "./Components/AdminDash/sidebar/Sidebar";
 import AdminPortal from "./Components/AdminDash/AdminPortal/AdminPortal";
+import BuyDe from "./Components/AdminDash/sidebar/BuyDe";
 
 const promise = loadStripe(
   "pk_test_51JZWkYSJDgFE9F4p11CTEevAgJCmKbpliP3rMbGuXjlYki2pWOzQSmMA1Oa48YHebKY9g00wbidzfHybXcm971J8003ipolZCj"
@@ -69,13 +67,9 @@ function App() {
           <Route path="/admin">
             <AdminPortal />
           </Route>
-          {/* <Route path="/buyde">
-            <div className="container">
-              <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
-              <buyde />
-              <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
-            </div>
-          </Route> */}
+          <Route path="/buyde">
+            <BuyDe />
+          </Route>
           <Route path="/checkout">
             <Header />
             <Checkout />
