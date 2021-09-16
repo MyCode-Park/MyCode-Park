@@ -1,25 +1,29 @@
 .testimonials-container {
   width: 100%;
-  height: 250px;
+  height: 25rem;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.assettype.com/fortuneindia%2F2020-06%2Fef53f9be-f257-4aa3-9af5-6ca1a9f33a86%2Fclose_up_photography_of_leaves_with_droplets_807598.jpg?rect=0,607,4128,2322&w=1250&q=60.jpg");
 }
 
 .testimonials-container h1 {
   font-size: xx-large;
-  color: black;
-  font-family: "Courier New", Courier, monospace;
-  font-style: bold;
+  color: white;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  font-weight: bolder;
   padding: 20px 0 0 10px;
   width: 100%;
+  margin-bottom: 50px;
 }
 
-.row {
+.testimonials__row {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.col {
+.testimonials__col {
   width: 100%;
   flex-wrap: wrap;
   padding: 0 40px;

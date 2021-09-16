@@ -6,7 +6,7 @@ import Title from "../Title/Title";
 
 function VideoBg() {
   return (
-    <div>
+    <div className="video__bg">
       <video autoPlay loop muted className="video">
         <source src={VG} type="video/mp4" />
       </video>

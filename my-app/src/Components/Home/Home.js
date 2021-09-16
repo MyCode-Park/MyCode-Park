@@ -10,7 +10,7 @@ function Home() {
       <VB />
       <ProductList />
       <Testimonials />
-      <DiscoverMore />
+      {/* <DiscoverMore /> */}
       <div className="home__container"></div>
     </div>
   );

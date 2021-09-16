@@ -4,6 +4,9 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  background-image: url(../Pics/Scene-20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .NewUser__logo {
@@ -16,6 +19,7 @@
 }
 
 .NewUser__container {
+  background-image: linear-gradient(62deg, #0c98f546 0%, #fffdfd88 100%);
   width: 300px;
   height: fit-content;
   display: flex;

@@ -1,7 +1,23 @@
 .userSelection {
   display: flex;
-  padding: 30px;
-  /* background-color: wheat; */
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 40px;
   height: max-content;
-  display: contents;
+  margin-top: 2%;
+  margin-left: 35%;
+  background-image: linear-gradient(62deg, #0c98f546 0%, #fffdfd88 100%);
+}
+
+.userSelection__seller,
+.userSelection__buyer {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 40%;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
 }

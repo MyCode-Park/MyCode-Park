@@ -34,8 +34,8 @@ function Header() {
         </Link>
       </div>
       <div className="header__search">
-        <input className="header__searchInput" type="text" />
-        <BiSearchAlt className="header__searchIcon" size={35} />
+        {/* <input className="header__searchInput" type="" /> */}
+        {/* <BiSearchAlt className="header__searchIcon" size={35} /> */}
       </div>
       <div className="header__nav">
         <Link to={!user && "/login"} className="link__line">

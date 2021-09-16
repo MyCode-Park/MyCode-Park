@@ -6,14 +6,14 @@ const Testimonials = () => {
   return (
     <div className="testimonials-container">
       <h1>Testimonials</h1>
-      <div className="row">
-        <div className="col">
+      <div className="testimonials__row">
+        <div className="testimonials__col">
           <Testimonial__card />
         </div>
-        <div className="col">
+        <div className="testimonials__col">
           <Testimonial__card />
         </div>
-        <div className="col">
+        <div className="testimonials__col">
           <Testimonial__card />
         </div>
       </div>

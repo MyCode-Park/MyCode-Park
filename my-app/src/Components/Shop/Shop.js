@@ -1,6 +1,6 @@
 import React from "react";
 // import Productr2 from "../Productr2/Productr2";
-import HeroSection2 from "../HeroSection/HeroSection2";
+// import Hero4 from "../HeroSection/Hero4";
 import Hero4 from "../HeroSection/HeroSection4";
 
 import "./Shop.css";
@@ -48,14 +48,14 @@ function Shop() {
             />
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -63,14 +63,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -82,14 +82,14 @@ function Shop() {
             <p>Seeds and Menure</p>
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -97,14 +97,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -113,14 +113,14 @@ function Shop() {
             />
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -128,14 +128,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -147,14 +147,14 @@ function Shop() {
             <p>Milk and Dairy Products</p>
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -162,14 +162,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -178,14 +178,14 @@ function Shop() {
             />
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -193,14 +193,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -212,14 +212,14 @@ function Shop() {
             <p>Edible Oil</p>
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -227,14 +227,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -243,14 +243,14 @@ function Shop() {
             />
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -258,14 +258,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -277,14 +277,14 @@ function Shop() {
             <p>Cooking Spices and Masala</p>
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -292,14 +292,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -308,14 +308,14 @@ function Shop() {
             />
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -323,14 +323,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -342,14 +342,14 @@ function Shop() {
             <p>Agricultural Tools</p>
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -357,14 +357,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -373,14 +373,14 @@ function Shop() {
             />
           </div>
           <div className="shop__row">
-            <HeroSection2
+            <Hero4
               id={1}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={4}
             />
-            <HeroSection2
+            <Hero4
               id={2324}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
@@ -388,14 +388,14 @@ function Shop() {
               rating={3}
             />
 
-            <HeroSection2
+            <Hero4
               id={3}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"
               price={5.99}
               rating={2}
             />
-            <HeroSection2
+            <Hero4
               id={4}
               image="https://www.wbcsd.org/var/site/storage/images/programs/food-land-water/food-land-use/global-agribusiness-alliance/news/responsible-business-is-key-to-long-term-value-of-agri-business-companies/64352-3-eng-GB/New-report-shows-responsible-business-is-key-to-long-term-value-of-agri-business-companies_i1140.jpg"
               title="Green Chilli"

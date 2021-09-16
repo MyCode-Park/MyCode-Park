@@ -3,6 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(../Pics/Scene-20.jpg);
+  /* object-fit: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .login__logo {
