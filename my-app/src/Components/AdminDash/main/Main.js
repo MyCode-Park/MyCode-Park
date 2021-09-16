@@ -11,7 +11,7 @@ const Main = () => {
         <div className="main__title">
           <img src={hello} alt="hello" />
           <div className="main__greeting">
-            <h1>Hello Vellanimaim</h1>
+            <h1>Hello Seller</h1>
             <p>Welcome to your admin dashboard</p>
           </div>
         </div>

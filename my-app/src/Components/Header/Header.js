@@ -23,13 +23,13 @@ function Header() {
         <img className="header__logo" src="/pics/logo-Bg.png" alt="LOGO" />
       </Link>
       <div className="header__nav">
-        <Link to="/shop">
+        <Link to="/shop" className="link__line">
           <div className="header__option">Shop</div>
         </Link>
-        <Link to="/about">
+        <Link to="/about" className="link__line">
           <div className="header__option">About Us</div>
         </Link>
-        <Link to="/contact">
+        <Link to="/contact" className="link__line">
           <div className="header__option">Contact Us</div>
         </Link>
       </div>
@@ -38,25 +38,28 @@ function Header() {
         <BiSearchAlt className="header__searchIcon" size={35} />
       </div>
       <div className="header__nav">
-        <Link to={!user && "/login"}>
+        <Link to={!user && "/login"} className="link__line">
           <div className="header__option" onClick={handleAuthentication}>
             <span className="header__optionLineOne">
-              Hello {!user ? "Guest" : user.email}
+              Hello {user ? user?.email.split("@")[0] : "Guest"}
+              {/* {!user ? "Guest" : user.email} */}
             </span>
             <span className="header__optionLineTwo">
               {user ? "Sign out" : "Sign In"}
             </span>
           </div>
         </Link>
-        <div className="header__option">
-          <span className="header__optionLineOne">Returns</span>
-          <span className="header__optionLineTwo">& Orders</span>
-        </div>
+        <Link to="/orders" className="link__line">
+          <div className="header__option">
+            <span className="header__optionLineOne">Returns</span>
+            <span className="header__optionLineTwo">& Orders</span>
+          </div>
+        </Link>
         <div className="header__option">
           <span className="header__optionLineOne">Your</span>
           <span className="header__optionLineTwo">Account</span>
         </div>
-        <Link to="/checkout">
+        <Link to="/checkout" className="link__line">
           <div className="header__optionCartIcon">
             <FiShoppingCart size={35} />
             <span className="header__optionLineTwo header__basketCount">

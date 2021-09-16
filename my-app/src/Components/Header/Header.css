@@ -61,6 +61,7 @@
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
+  text-decoration: none;
 }
 
 /* Header option line one -------------------*/
@@ -72,6 +73,7 @@
 .header__optionLineTwo {
   font-size: 13px;
   font-weight: 800;
+  display: inline-block;
 }
 
 /* Header cart icon */
@@ -91,4 +93,10 @@
   position: relative;
   right: 20px;
   bottom: 18px;
+}
+
+/* Link color  */
+.link__line {
+  text-decoration: none;
+  color: black;
 }

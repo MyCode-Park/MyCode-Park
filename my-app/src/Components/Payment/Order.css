@@ -1,0 +1,15 @@
+.order {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+  width: 99%;
+}
+
+.order__id {
+  /* position: relative;
+  top: 40px;
+  right: 20px; */
+  text-align: end;
+}
